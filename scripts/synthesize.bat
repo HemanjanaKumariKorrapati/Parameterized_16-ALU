@@ -1,0 +1,1 @@
+yosys -p "read_verilog rtl/alu.v; synth; show -format svg -prefix synthesis/alu_rtl; write_verilog synthesis/alu_gate.v; stat" > synthesis/synthesis_report.txt

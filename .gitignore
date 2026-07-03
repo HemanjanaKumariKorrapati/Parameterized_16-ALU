@@ -1,0 +1,28 @@
+# Simulation files
+*.vcd
+*.vvp
+*.out
+
+# GTKWave
+*.gtkw
+
+# Log files
+*.log
+
+# Backup files
+*.bak
+*~
+
+# Temporary files
+*.tmp
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# Yosys temporary
+*.dot~
